@@ -9,5 +9,7 @@ html {
   background: center/cover no-repeat url("../../gifs/greenflash-background.gif");
   height: 100vh;
   font-family: RFRostin;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=defaults.css.map */

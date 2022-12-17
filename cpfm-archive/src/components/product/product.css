@@ -1,0 +1,82 @@
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.product .product-img {
+  max-width: 300px;
+  min-width: 100px;
+}
+
+.product span {
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin: 0.2em 0;
+}
+
+.product .product-types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.product .product-types .type-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0.2em 0;
+  padding: 0;
+  max-width: 300px;
+}
+
+.product .product-types .type-list .list-item {
+  margin: 0;
+}
+
+.product .product-types .type-list .list-item .list-btn {
+  color: white;
+  font-size: 1.3em;
+  background: none;
+  border: none;
+  padding: 0.3em 0.5em;
+  text-transform: uppercase;
+}
+
+.product .product-types .type-list .list-item .list-btn:hover, .product .product-types .type-list .list-item .list-btn.active {
+  color: black;
+  background-color: white;
+}
+
+.product .add-cart {
+  max-width: 320px;
+  height: 45px;
+  width: 100%;
+  color: white;
+  background-color: transparent;
+  border: 3px solid white;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+.product .add-cart:hover {
+  color: black;
+  background-color: white;
+}
+/*# sourceMappingURL=product.css.map */

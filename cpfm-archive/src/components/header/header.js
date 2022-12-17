@@ -15,7 +15,7 @@ function Header() {
         <img
           id="logo-gif"
           alt="Archive CPFM website logo"
-          src="../../assets/gifs/cpfmxyz-logo.gif"
+          src="/assets/gifs/cpfmxyz-logo.gif"
         ></img>
       </nav>
     </header>
