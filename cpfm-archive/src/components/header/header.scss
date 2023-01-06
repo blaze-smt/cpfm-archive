@@ -1,0 +1,87 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.header-home {
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .nav-anchors {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      a {
+        font-size: 1.2em;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 1em 2em;
+        transition: all 150ms ease-in-out;
+        &:hover {
+          color: rgba(255, 255, 255, 0.7);
+        }
+      }
+    }
+    #logo-gif {
+      max-width: 300px;
+      min-width: 100px;
+      margin-top: -60px;
+    }
+  }
+}
+
+@media screen and (min-width: breakpoint-min(xxl, $grid-breakpoints)) {
+  // >=1400px
+}
+
+@media screen and (min-width: 1900px) {
+  // >= 1900px
+}
+
+@media screen and (min-width: 2500px) {
+  // >=2500px
+}
+
+@media screen and (max-width: breakpoint-min(xxl, $grid-breakpoints)) {
+  // <1400px
+}
+
+@media screen and (max-width: 1250px) {
+  // <= 1250px
+}
+
+@media screen and (max-width: breakpoint-min(xl, $grid-breakpoints)) {
+  // <1200px
+}
+
+@media screen and (max-width: breakpoint-min(lg, $grid-breakpoints)) {
+  // <992px
+}
+
+@media screen and (max-width: breakpoint-max(md, $grid-breakpoints)) {
+  // <768px
+}
+
+@media screen and (max-width: breakpoint-min(sm, $grid-breakpoints)) {
+  // <576px
+  .header-home {
+    .navbar {
+      flex-direction: column-reverse;
+      .nav-anchors {
+        flex-direction: column;
+        align-items: center;
+        a {
+          margin: 1.5em 0;
+        }
+      }
+      #logo-gif {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 258px) {
+}

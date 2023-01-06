@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,UAAU;EACR,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,yCAAyC,CAAC,eAAe,EAC5D,wCAAwC,CAAC,cAAc,EACvD,uCAAuC,CAAC,kBAAkB;EAC5D,WAAW,EAAE,GAAG;EAChB,UAAU,EAAE,MAAM",
+    "sources": [
+        "RFRostin-Regular.scss"
+    ],
+    "names": [],
+    "file": "RFRostin-Regular.css"
+}
